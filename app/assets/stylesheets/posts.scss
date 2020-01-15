@@ -1,3 +1,24 @@
-// Place all the styles related to the posts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#jumbotron{
+  text-align: center;
+  color: #333;
+  background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1150&q=60);
+}
+#footer{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #ccc;
+}
+#appStoreIcon{
+  width: 200px;
+}
+
+.card-deck-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+body{
+  position: relative;
+}
