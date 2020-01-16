@@ -64,4 +64,15 @@ body{
     margin-left: 150px;
     text-align: center;
   }
+  .contact{
+    width: 100%;
+    padding: 330px 0;
+    color: #333;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 25px;
+    background: -moz-linear-gradient(top, #FFC778, rgba(255, 0, 0, 0.1));
+    background: -webkit-linear-gradient(top, #FFC778, rgba(255, 0, 0, 0.1));
+    background: linear-gradient(to bottom, #FFC778, rgba(255, 0, 0, 0.1));
+  }
 }
