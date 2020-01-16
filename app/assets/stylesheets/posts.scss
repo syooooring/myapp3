@@ -1,5 +1,6 @@
 #jumbotron{
   text-align: center;
+  letter-spacing: 3px;
   color: #333;
   background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1150&q=60);
 }
@@ -20,5 +21,36 @@
 }
 
 body{
+  font-family: "YuGothic", "Yu Gothic", "游ゴシック", "游ゴシック体", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+
   position: relative;
+}
+
+.contents{
+  width: 100%;
+  .content{
+    width: 100%;
+    padding: 100px 0;
+    background: -moz-linear-gradient(top, #FFF, #FFC778 30%, #F89174 60%, #748af8);
+    background: -webkit-linear-gradient(top, #FFF, #FFC778 30%, #F89174 60%, #748af8);
+    background: linear-gradient(to bottom, #FFF, #FFC778 30%, #F89174 60%, #748af8);
+    color: #333;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 25px;
+  }
+  .probox{
+    font-family: "YuGothic", "Yu Gothic", "游ゴシック", "游ゴシック体", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #555;
+    background-color: #fff;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-bottom: 90px;
+    h3{
+      font-weight: bold;
+      color: #333;
+    }
+  }
 }
