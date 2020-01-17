@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :posts, only:[:show] do
     collection do
       get 'profile'
+      get 'contact'
     end
   end
 end

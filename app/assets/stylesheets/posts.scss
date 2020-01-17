@@ -28,14 +28,18 @@ body{
 
 .contents{
   width: 100%;
+  h3{
+    font-weight: bold;
+    color: #333;
+  }
   .content{
     width: 100%;
-    padding: 100px 0;
+    padding: 330px 0;
     background: -moz-linear-gradient(top, #FFF, #FFC778 30%, #F89174 60%, #748af8);
     background: -webkit-linear-gradient(top, #FFF, #FFC778 30%, #F89174 60%, #748af8);
     background: linear-gradient(to bottom, #FFF, #FFC778 30%, #F89174 60%, #748af8);
     color: #333;
-    font-size: 100px;
+    font-size: 50px;
     text-align: center;
     letter-spacing: 25px;
   }
@@ -47,10 +51,39 @@ body{
     background-color: #fff;
     margin-top: 90px;
     margin-left: 150px;
+  }
+  .works{
+    font-family: "YuGothic", "Yu Gothic", "游ゴシック", "游ゴシック体", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #555;
+    background-color: #fff;
+    margin-top: 90px;
     margin-bottom: 90px;
-    h3{
-      font-weight: bold;
-      color: #333;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+  }
+  .contact{
+    width: 100%;
+    padding: 330px 0;
+    color: #333;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 25px;
+    background: -moz-linear-gradient(top, #FFC778, rgba(255, 0, 0, 0.1));
+    background: -webkit-linear-gradient(top, #FFC778, rgba(255, 0, 0, 0.1));
+    background: linear-gradient(to bottom, #FFC778, rgba(255, 0, 0, 0.1));
+  }
+  .form{
+    width: 100%;
+    height: 500px;
+    padding: 80px 0;
+    text-align: center;
+    input{
+      width: 500px;
+      height: 50px;
+      font-size: 20px;
     }
   }
 }
